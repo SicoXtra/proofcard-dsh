@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Proofcard runtime data (local ledger, may contain session excerpts)
+.proofcard/
+proofcard-data/
+*.ledger.jsonl
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Logs & temp
+*.log
+npm-debug.log*
+tmp/
+temp/
+
+# Python (some tooling may be added later)
+__pycache__/
+*.pyc
+.pytest_cache/

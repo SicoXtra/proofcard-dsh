@@ -1,0 +1,16 @@
+# Normalize line endings so Windows checkouts don't produce CRLF churn.
+* text=auto eol=lf
+
+# Explicit text types
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+
+# Binary
+*.png   binary
+*.jpg   binary
+*.zip   binary
+*.blend binary

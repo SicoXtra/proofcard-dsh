@@ -1,0 +1,12 @@
+# Proofcard DSH: one Host row. Receipts are observe-only; this row never gates a turn.
+- insert:
+    - id: proofcard-dsh
+      name: '@local/proofcard-dsh'
+      config:
+        enabled: true
+        dataDir: ''
+        maxClaims: 12
+        storeToolOutput: true
+        retentionDays: 30
+        allowCommandRerun: false
+        ambientPrompt: true
