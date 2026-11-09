@@ -11,10 +11,6 @@ lists receipts with **Accept** and **Challenge** actions.
 It is **observe-only**: it never gates, rewrites, delays or withholds a turn. It is also
 **zero-token and deterministic** — no model call, no API key, no network.
 
-> Same idea as the Hermes Proofcard plugin, rebuilt on DSH's Cordis seams: `session/event`
-> capture, six model tools, `webServer` routes for the UI, and `systemPrompt.context`
-> guidance. Nothing is shared with the Hermes plugin at runtime.
-
 ## What you get
 
 | Surface | What it does |

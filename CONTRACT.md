@@ -69,7 +69,7 @@ Only completed turns produce receipts. Skip our own `proofcard_*` tools.
 
 Host also registers:
 
-- six tools (same names as the Hermes plugin) via `ctx.tools.register({
+- six tools via `ctx.tools.register({
   name, description, parameters, output: { schema, render(args,value) { return [{type:'text',text}] } },
   execute(args, exec) { … } })`:
   `proofcard_list`, `proofcard_show`, `proofcard_accept`, `proofcard_challenge`,
